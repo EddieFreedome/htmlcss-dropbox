@@ -17,23 +17,24 @@ li{
 
 li a {
     display: inline-block;
-    padding-right: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-decoration: none;
     color: black;
 }
 
 
 .navsx{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     position: fixed;
     width: 50%;
 }
 
 .navdx{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 20px;
     position: fixed;
     right: 0;
@@ -41,7 +42,22 @@ li a {
     text-align: right;
 }
 
+.small{
+    font-size: 16px;
+    border: none;
+    padding: 5px 18px;
+    
+}
 
+.light{
+    background-color: white;
+    color: black;
+}
+
+.blue{
+    background-color: rgb(49, 97, 255);
+    color: white;
+}
 
 .col_1-9{
     width: calc(100% / 9);
