@@ -23,23 +23,50 @@ li a {
     color: black;
 }
 
+main{
+    margin-top: 70px;
+}
 
+h1{
+    padding-top: 80px;
+    font-size: 75px;
+}
+
+
+.section-1{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.section-1 p{
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.container-large p{
+    display: inline-block;
+}
 .navsx{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     position: fixed;
+    left: 0;
+    top: 0;
     width: 50%;
+    background-color: white;
+
 }
 
 .navdx{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; /*perche qui dovrei mettere 18px??!!!*/
     padding-right: 20px;
     position: fixed;
     right: 0;
+    top: 0;
     width: 50%;
     text-align: right;
+    background-color: white;
 }
 
 .small{
@@ -54,6 +81,21 @@ li a {
     color: black;
 }
 
+.hero-container{
+    background-color: #B4D0E7;
+    min-height: 300px;
+}
+
+
+.container-large{
+    max-width: 1367px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
 .blue{
     background-color: rgb(49, 97, 255);
     color: white;
@@ -65,4 +107,10 @@ li a {
 
 .col_3-9 {
     width: calc(100% / 9 * 3);
+    display: inline-block;
 }
+.col_6-9{
+    width: calc(100% / 9 * 6);
+    display: inline-block;
+}
+
