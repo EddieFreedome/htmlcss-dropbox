@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col_1-9{
+    width: calc(100% / 9);
+}
+
+.col_3-9 {
+    width: calc(100% / 9 * 3);
+}
