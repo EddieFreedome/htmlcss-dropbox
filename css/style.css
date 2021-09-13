@@ -5,6 +5,44 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    font-size: 16px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
+
+li a {
+    display: inline-block;
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.navsx{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: fixed;
+    width: 50%;
+}
+
+.navdx{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    position: fixed;
+    right: 0;
+    width: 50%;
+    text-align: right;
+}
+
+
+
 .col_1-9{
     width: calc(100% / 9);
 }
