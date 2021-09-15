@@ -5,6 +5,82 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+    font-size: 77px;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4,
+h5{
+    font-size: 16px;
+}
+
+section{
+    margin-top: 150px;
+}
+/*CLASSI LAYOUT*/
+
+
+.container-large{
+    max-width: 1367px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+.container{
+    max-width: 1010px;
+    width: 100%;
+    margin: auto;
+}
+
+[class*="col_"] {
+    float: left;
+    padding-right: 14px;
+  }
+
+.col_1-9{
+    width: calc(100% / 9);
+}
+
+.col_3-9 {
+    width: calc(100% / 9 * 3);
+}
+
+.col_4-9 {
+    width: calc(100% / 9 * 4);
+}
+
+.col_5-9 {
+    width: calc(100% / 9 * 5);
+}
+.col_6-9{
+    width: calc(100% / 9 * 6);
+}
+
+.row{
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
 header {
     z-index: 99;
 }
@@ -31,27 +107,12 @@ main{
     margin-top: 70px;
 }
 
-h1{
-    padding-top: 80px;
-    font-size: 75px;
-}
 
 hr{
     color: lightgray;
     width: 20%;
 }
 
-.container-large{
-    max-width: 1367px;
-    width: 100%;
-    margin: auto;
-}
-
-.container{
-    max-width: 1010px;
-    width: 100%;
-    margin: auto;
-}
 
 .hero-container{
     background-color: #B4D0E7;
@@ -59,17 +120,20 @@ hr{
 }
 
 .hero-1{
-    padding-top: 50px;
     padding-right: 50px;
 }
 
+
 .hero-1 p{
-    padding-bottom: 30px;
+    padding-bottom: 30px;  
 }
 
+.hero-1 p:nth-last-child(1){
+    padding-top: 10px;
+
+}
 .hero-1 img{
   width: 100%;
-  transform: translate(50px, 5    0px);
 }
 
 .clearfix:after{
@@ -78,16 +142,6 @@ hr{
     display: table;
 }
 
-[class*="col_"] {
-    float: left;
-    padding-left: 14px;
-    padding-right: 14px;
-  }
-
-.row{
-    margin-left: -14px;
-    margin-right: -14px;
-}
 
 .panel{
     padding: 14px;
@@ -114,7 +168,7 @@ hr{
 
 .navdx{
     padding-top: 20px;
-    padding-bottom: 20px; /*perche qui dovrei mettere 18px??!!!*/
+    padding-bottom: 18px; /*perche qui dovrei mettere 18px??!!!*/
     padding-right: 20px;
     position: fixed;
     right: 0;
@@ -126,7 +180,7 @@ hr{
 }
 
 
-
+/*CLASSI UTILITIES*/
 
 .small{
     font-size: 16px;
@@ -143,24 +197,5 @@ hr{
 .blue{
     background-color: rgb(49, 97, 255);
     color: white;
-}
-
-.col_1-9{
-    width: calc(100% / 9);
-}
-
-.col_3-9 {
-    width: calc(100% / 9 * 3);
-}
-
-.col_4-9 {
-    width: calc(100% / 9 * 4);
-}
-
-.col_5-9 {
-    width: calc(100% / 9 * 5);
-}
-.col_6-9{
-    width: calc(100% / 9 * 6);
 }
 
