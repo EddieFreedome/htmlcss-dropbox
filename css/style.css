@@ -42,8 +42,8 @@ section{
 
 [class*="col_"] {
     float: left;
-    /*padding-right: 30px;
-    padding-left: 20px;*/
+    padding-right: 30px;
+    padding-left: 20px;
   }
 
 .col_1-9{
@@ -66,8 +66,8 @@ section{
 }
 
 .row{
+    margin-right: -30px;
     margin-left: -20px;
-    margin-right: -20px;
 }
 
 .clearfix:after{
