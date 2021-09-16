@@ -26,6 +26,7 @@ h5{
 section{
     margin-top: 150px;
 }
+
 /*CLASSI LAYOUT*/
 
 
@@ -46,6 +47,7 @@ section{
 [class*="col_"] {
     float: left;
     padding-right: 14px;
+    padding-left: 14px;
   }
 
 .col_1-9{
@@ -70,6 +72,7 @@ section{
 .row{
     margin-left: -14px;
     margin-right: -14px;
+    padding-bottom: 50px;
 }
 
 .clearfix:after{
@@ -143,21 +146,20 @@ hr{
 }
 
 
-
-
-.column{
-padding-left: 30px;
-
-}
-
 .headcol{
     text-align: center;
     width: 100%;
     border-top: lightgray 1px solid;
     border-left: lightgray 1px solid;
     border-right: lightgray 1px solid;
-    padding: 10px 0px;
+    border-bottom: lightgray 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 500;
+}
+
+.headcol2{
+    borde
 }
   .navsx{
     padding-top: 20px;
@@ -186,19 +188,21 @@ padding-left: 30px;
 }
 /*modifiers*/
 
-.section-container input{
-    margin-bottom: 40px;
-    margin-top: 50px;
-    margin-left: 20px;
+.section-container .input{
+    padding-bottom: 40px;
+    padding-top: 50px;
 }
 
 
 
+
 .panel{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 200px;
-    border: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 
 }
 
@@ -249,6 +253,34 @@ padding-left: 30px;
     padding-bottom: 25px;
 }
 
+.blocco3{
+    border-left: lightgray 1px solid;
+}
+
+.sub-blocco{
+    padding-top: 30px;
+    border-left: lightgray 1px solid;
+}
+
+.sub-blocco2{
+    border-right: lightgray 1px solid;
+}
+/*.blocco3{
+    border-left: lightgray 1px;
+    border-right: lightgray 1px;
+}
+.panel-blocco3{
+    border-left: lightgray 1px;
+    border-right: lightgray 1px;
+}*/
+/*
+.sub-blocco3{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.sub-blocco3 .mintiny button{
+width: 100%;
+}*/
 
 /*CLASSI UTILITIES*/
 
