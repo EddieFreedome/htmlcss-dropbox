@@ -31,7 +31,7 @@ section{
 
 
 .container-large{
-    max-width: 80%;
+    max-width: 1367px;
     width: 100%;
     margin: auto;
     position: relative;
@@ -39,7 +39,7 @@ section{
 }
 
 .container{
-    max-width: 60%;
+    max-width: 1010px;
     width: 100%;
     margin: auto;
 }
@@ -310,6 +310,37 @@ width: 100%;
 .blocco4 .col_4-9 button{
     border: black 1px;
     padding-left: 5px 18px;
+}
+
+
+.blocco5{
+    margin-left: -14px;
+    margin-right: -14px;
+    padding-bottom: 50px;
+    border: lightgray 1px;
+    margin-top: 50px;
+}
+
+.blocco5 h2{
+    padding-bottom: 50px;
+}
+
+.panel-blocco5{
+    padding-right: 10px;
+}
+.panel-blocco5 img{
+    width: 100%;
+}
+
+.panel-blocco5 h3{
+    padding-bottom: 30px;
+}
+.panel-blocco5 p{
+    padding-bottom: 50px;
+}
+
+.panel-blocco5 p span {
+    text-decoration: underline;
 }
 /*CLASSI UTILITIES*/
 
