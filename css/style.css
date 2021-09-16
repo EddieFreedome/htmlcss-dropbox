@@ -29,11 +29,9 @@ section{
 
 /*CLASSI LAYOUT*/
 
-
-.container-large{
-    max-width: 80%px;
-    width: 100%;
-    margin: auto;
+.hero-container{
+    background-color: #B4D0E7;
+    min-height: 300px;
 }
 
 .container{
@@ -44,8 +42,8 @@ section{
 
 [class*="col_"] {
     float: left;
-    padding-right: 30px;
-    padding-left: 20px;
+    /*padding-right: 30px;
+    padding-left: 20px;*/
   }
 
 .col_1-9{
@@ -114,26 +112,40 @@ hr{
 }
 
 
-.hero-container{
-    background-color: #B4D0E7;
-    min-height: 300px;
+.container-large{
+    position: relative;
+    top: 80px;
+    margin: auto;
+    max-width: 80%;
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+
+.container-large .col_3-9{
+    padding-left: 0px;
+    padding-right: 68px;
+}
+
+.container-large .col_3-9 p{
+    padding-bottom: 30px;
+}
+
+.hero-container .col_3-9 p:nth-last-child(1){
+    padding-top: 10px;
+    font-size: 14px;
+
 }
 
 .hero-1{
     padding-right: 50px;
 }
-
-
-.hero-1 p{
-    padding-bottom: 30px;  
+.col_6-9 img{
+    width: 100%;
 }
 
-.hero-1 p:nth-last-child(1){
-    padding-top: 10px;
-
-}
-.hero-1 img{
-  width: 100%;
+.panel-hero{
+    padding-right: 0px;
 }
 
 .clearfix:after{
@@ -181,6 +193,10 @@ hr{
     background-color: white;
     z-index: 99
 }
+
+.navdx button{
+    border: none;
+}
 /*modifiers*/
 
 .section-container .input{
@@ -201,9 +217,6 @@ hr{
 
 }
 
-.subpanel1{
-
-}
 
 .panel h3{
     padding-top: 30px;
@@ -297,10 +310,6 @@ hr{
     font-size: 14px;
     padding: 7px 75px;
     font-weight: 500;
-   /* position: absolute;
-    top: 40px;
-    right: 30px;*/
-
 }
 
 .panel-blocco3{
