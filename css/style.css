@@ -267,11 +267,23 @@ hr{
 /*.blocco3{
     border-left: lightgray 1px;
     border-right: lightgray 1px;
-}
-.panel-blocco3{
-    border-left: lightgray 1px;
-    border-right: lightgray 1px;
 }*/
+
+.blocco3{
+    margin-top: 50px;
+}
+
+.headcol2{
+    width: 100%;
+    text-align: center;
+    border-top: lightgray;
+}
+.sub-blocco3{
+
+}
+
+.sub-blocco3 .col_3-9 {
+}
 /*
 .sub-blocco3{
     padding-left: 25px;
