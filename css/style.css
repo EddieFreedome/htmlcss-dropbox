@@ -30,7 +30,7 @@ section{
 
 
 .container-large{
-    max-width: 1367px;
+    max-width: 80%;
     width: 100%;
     margin: auto;
     position: relative;
@@ -38,7 +38,7 @@ section{
 }
 
 .container{
-    max-width: 1010px;
+    max-width: 60%;
     width: 100%;
     margin: auto;
 }
@@ -143,16 +143,22 @@ hr{
 }
 
 
-.panel{
-    padding: 14px;
 
-}
 
 .column{
-    border: 1px solid lightgray;
+padding-left: 30px;
+
 }
 
-
+.headcol{
+    text-align: center;
+    width: 100%;
+    border-top: lightgray 1px solid;
+    border-left: lightgray 1px solid;
+    border-right: lightgray 1px solid;
+    padding: 10px 0px;
+    font-weight: 500;
+}
   .navsx{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -178,6 +184,70 @@ hr{
     background-color: white;
     z-index: 99
 }
+/*modifiers*/
+
+.section-container input{
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+.panel{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 200px;
+    border: 1px solid lightgray;
+
+}
+
+.subpanel1{
+
+}
+
+.panel h3{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.panel h4{
+    padding-bottom: 10px;
+}
+
+.sub-panel1 li{
+    padding-bottom: 25px;
+}
+
+.sub-panel1 button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.sub-panel1 ul {
+    padding-top: 40px;
+}
+.sub-panel1 p{
+    padding-bottom: 30px;
+}
+
+.sub-panel1 .tiny{
+    padding-bottom: 50px;
+}
+
+.sub-panel2{
+    padding-top: 50px;
+}
+
+.sub-panel2 h4{
+    padding-bottom: 30px;
+}
+
+.sub-panel2 li{
+    padding-bottom: 25px;
+}
 
 
 /*CLASSI UTILITIES*/
@@ -199,3 +269,11 @@ hr{
     color: white;
 }
 
+.tiny{
+    font-size: 14px;
+    color: gray;
+}
+
+.mintiny{
+    font-size: 14px;
+}
