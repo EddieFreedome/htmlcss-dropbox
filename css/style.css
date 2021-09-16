@@ -70,7 +70,6 @@ section{
 .row{
     margin-left: -20px;
     margin-right: -20px;
-    padding-bottom: 50px;
 }
 
 .clearfix:after{
@@ -272,6 +271,10 @@ hr{
     border: 1px solid lightgray;
     padding-bottom: 30px;
 }
+
+.sub-blocco3 .col_6-9{
+    padding-right: 0;
+}
 /*.blocco3{
     border-left: lightgray 1px;
     border-right: lightgray 1px;
@@ -292,7 +295,7 @@ hr{
 
 .panel-blocco3 button{
     font-size: 14px;
-    padding: 7px 70px;
+    padding: 7px 75px;
     font-weight: 500;
    /* position: absolute;
     top: 40px;
@@ -326,8 +329,7 @@ width: 100%;
     margin-left: -20px;
     margin-right: -14px;
     padding-bottom: 50px;
-    border: 1px solid lightgray;
-    margin-top: 50px; /*opzionale*/
+    padding-top: 150px; /*opzionale*/
 }
 
 .blocco4 .col_5-9 img{
@@ -358,7 +360,6 @@ width: 100%;
 
     margin-right: -20px;
     padding-bottom: 50px;
-    border: 1px solid lightgray;
     margin-top: 50px;
 }
 
